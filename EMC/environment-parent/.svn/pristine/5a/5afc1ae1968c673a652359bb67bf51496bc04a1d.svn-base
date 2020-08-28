@@ -1,0 +1,94 @@
+package com.beiup.db;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.Collection;
+
+import com.briup.bean.Environment;
+
+/**
+ * 数据入库 
+ * 把数据存到数据库中
+ * 
+ * @author ghost
+ *
+ */
+public class DataStorageImpl implements IDataStorage {
+	PreparedStatement prepareStatement = null;
+	Statement statement = null;
+	@Override
+	public void dataStorage(Collection<Environment> collection) {
+		try {
+			// 注册驱动
+			Class.forName("oracle.jdbc.OracleDriver");
+			// 获取连接
+			String url = "jdbc:oracle:thin:@localhost:1521:XE";
+			String user = "jd2005_gqchen";
+			String password = "gqchen";
+			Connection connection = DriverManager.getConnection(url, user, password);
+			// 设置不自动提交
+			connection.setAutoCommit(false);
+			// 创建序列
+			String sqlSeq = "create sequence common_seq";
+			statement = connection.createStatement();
+			statement.execute(sqlSeq);
+//			prepareStatement = connection.prepareStatement(sqlSeq);
+//			prepareStatement.executeBatch();
+			// 创建表
+			String sql = "create table Environment_?("
+					+ "srcid varchar2(32) not null,"
+					+ "devid varchar2(32) not null,"
+					+ "regionid number not null,"
+					+ "name varchar2(32) not null,"
+					+ "count number not null,"
+					+ "states number not null,"
+					+ "data number not null,"
+					+ "rewicestate number not null,"
+					+ "gathedate date not null"
+					+ ")";
+//			String num = String.valueOf(new Date(System.currentTimeMillis()));
+//			statement.execute(sql);
+			prepareStatement = connection.prepareStatement(sql);
+			//创建表之前先查询通用序列的下一个值并赋值给seq
+			ResultSet resultSet = statement.executeQuery("select common_seq.nextval from dual");
+			String seq = "1";
+			while (resultSet.next()) {
+				seq = resultSet.getString("nextval");
+			}
+			prepareStatement.setString(1, seq);
+//			prepareStatement.execute();
+			prepareStatement.executeBatch();
+			System.out.println("建表成功");
+			
+			// 向表中添加数据
+			String sql1 = "insert into Environment_select common_seq.currval values(?,?,?,?,?,?,?,?,?)";
+			prepareStatement = connection.prepareStatement(sql1);
+			for (Environment environment : collection) {
+				prepareStatement.setString(1, environment.getSrcId());
+				prepareStatement.setString(2, environment.getDevId());
+				prepareStatement.setLong(3, environment.getRegionId());
+				prepareStatement.setString(4, environment.getName());
+				prepareStatement.setLong(5, environment.getCount());
+				prepareStatement.setInt(6, environment.getStates());
+				prepareStatement.setDouble(7, environment.getData());
+				prepareStatement.setInt(8, environment.getRewiceState());
+				prepareStatement.setDate(9, environment.getGatheDate());
+			}
+			prepareStatement.executeBatch();
+			
+			connection.commit();
+			System.out.println("插入数据成功");
+			prepareStatement.close();
+			connection.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+
+	}
+	
+}

@@ -1,0 +1,51 @@
+package com.briup.send;
+
+import java.io.BufferedOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.Collection;
+
+import com.briup.bean.Environment;
+import com.briup.bean.FileNameEnums;
+import com.briup.util.FileBackupUtil;
+
+/**
+ * 向服务端发送collection数据(对象)
+ * 	Socket tcp/ip
+ * 		通过对象输出流发送数据
+ * 		当发生异常时备份数据
+ * @author ghost
+ *
+ */
+public class SendImpl implements ISend {
+
+	@Override
+	public void send(Collection<Environment> collection) {
+		String host = "127.0.0.1";
+		int port = 8666;
+		try {
+			Socket socket = new Socket(host, port);
+			Object data = FileBackupUtil.recover(FileNameEnums.CLIENT_SEND_DATA_PATH.getPath(), true);
+			if (data != null) {
+				collection.addAll((Collection<? extends Environment>) data);
+			}
+			OutputStream outputStream = socket.getOutputStream();
+			BufferedOutputStream stream = new BufferedOutputStream(outputStream);
+			ObjectOutputStream oos = new ObjectOutputStream(stream);
+			oos.writeObject(collection);
+			oos.flush();
+			oos.close();
+			socket.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			try {
+				FileBackupUtil.store(FileNameEnums.CLIENT_SEND_DATA_PATH.getPath(), collection);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,38 @@
+package com.beiup.dbutil;
+
+/**
+ * 数据库连接工具类
+ * 
+ * @author ghost
+ *
+ */
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectionUtil {
+	public static Connection connection = null;
+	static {
+		try {
+			// 1.注册驱动
+			Class.forName("oracle.jdbc.OracleDriver");
+			// 2.获取连接
+			String url = "jabc:oracle:thin:@localhost:1521:XE";
+			String user = "jd2005_gqchen";
+			String password = "gqchen";
+			connection = DriverManager.getConnection(url, user, password);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public Connection getConnections() throws Exception {
+		this.getConnections(false);
+		return connection;
+	}
+
+	public Connection getConnections(boolean autoCommit) throws Exception {
+		connection.setAutoCommit(autoCommit);
+		return connection;
+	}
+}

@@ -1,0 +1,110 @@
+package com.briup.gather;
+
+import java.io.RandomAccessFile;
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import com.briup.bean.Environment;
+
+public class GatherImpl1 implements IGather {
+
+	private long flag;
+
+	@SuppressWarnings("resource")
+	@Override
+	public Collection<Environment> gather() {
+		/**
+		 * 将文件radwtmp中的数据进行读取 将读取的数据按照 | 分割 将分割号的数据填充到Environment对象存储到集合中并且返回 当第一次解析结束
+		 * 那么下一次解析就不要再去解析上一次解析过的数据 随机访问流
+		 */
+		try {
+			// 1.存储解析好的对象
+			Collection<Environment> list = new ArrayList<>();
+			// 2.构建流
+			String file = "src/main/resources/radwtmp";
+
+//			FileReader fileReader = new FileReader(file);
+//			BufferedReader reader = new BufferedReader(fileReader);
+
+			RandomAccessFile randomAccessFile = new RandomAccessFile(file, "r");
+
+			randomAccessFile.seek(flag);
+			String line = null;
+			while ((line = randomAccessFile.readLine()) != null) {
+				String[] split = line.split("\\|");
+				// 数组判空
+				if (split == null || split.length <= 0) {
+					return null;
+				}
+//				System.out.println(line);
+				// 设置温度数据
+				Environment environment = new Environment();
+				// 设置发送端ID
+				environment.setSrcId(split[0]);
+				// 设置树莓派ID
+				environment.setDevId(split[1]);
+				// 设置实验箱区域ID
+				environment.setRegionId(Long.valueOf(split[2]));
+				// 设置传感器的个数
+				environment.setCount(Long.valueOf(split[4]));
+				// 设置数据状态
+				environment.setStates(Integer.parseInt(split[5]));
+				// 设置数据接收状态
+				environment.setRewiceState(Integer.parseInt(split[7]));
+				// 设置采集数据时间
+				environment.setGatheDate(new Date(Long.valueOf(split[8])));
+				if ("16".equals(split[3])) {
+					// 设置数据名称
+					environment.setName("温度");
+					// 设置具体数据
+					Integer value = Integer.parseInt(split[6].substring(0, 4), 16);
+					Double data = Double.valueOf(((float) value * 0.00268127) - 46.85);
+					environment.setData(data);
+
+					list.add(environment);
+
+					// 设置湿度数据
+					environment = new Environment();
+					environment.setSrcId(split[0]);
+					environment.setDevId(split[1]);
+					environment.setRegionId(Long.valueOf(split[2]));
+					environment.setName("湿度");
+					environment.setCount(Long.valueOf(split[4]));
+					environment.setStates(Integer.parseInt(split[5]));
+					environment.setRewiceState(Integer.parseInt(split[7]));
+					environment.setGatheDate(new Date(Long.valueOf(split[8])));
+					value = Integer.parseInt(split[6].substring(4, 8), 16);
+					data = Double.valueOf(((float) value * 0.00268127) - 46.85);
+					environment.setData(data);
+
+					list.add(environment);
+
+				} else if ("256".equals(split[3])) {
+					environment.setName("光照强度");
+					double data = Integer.parseInt(split[6].substring(0, 4), 16);
+					environment.setData(data);
+
+					list.add(environment);
+				} else if ("1280".equals(split[3])) {
+					environment.setName("CO2");
+					double data = Integer.parseInt(split[6].substring(0, 4), 16);
+					environment.setData(data);
+
+					list.add(environment);
+				}
+			}
+
+			flag = randomAccessFile.length();
+
+			return list;
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		} finally {
+
+		}
+	}
+
+}

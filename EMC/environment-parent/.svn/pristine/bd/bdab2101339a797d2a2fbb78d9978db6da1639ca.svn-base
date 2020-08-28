@@ -1,0 +1,5 @@
+package com.beiup.accept;
+
+public interface IAccept {
+	void accept();
+}

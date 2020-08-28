@@ -1,0 +1,14 @@
+package com.briup.accept;
+
+import org.junit.Test;
+
+import com.briup.accept.AcceptImpl;
+
+public class IAcceptTest {
+	@Test
+	public void t1() {
+		AcceptImpl acceptImpl = new AcceptImpl();
+		acceptImpl.accept();
+
+	}
+}

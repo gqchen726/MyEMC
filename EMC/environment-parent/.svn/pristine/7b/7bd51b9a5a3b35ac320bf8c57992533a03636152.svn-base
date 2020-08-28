@@ -1,0 +1,77 @@
+package com.briup.gather;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Collection;
+
+
+import com.briup.bean.Environment;
+
+public class GatherImpl implements IGather{
+
+
+	@Override
+	public Collection<Environment> gather() {
+		Collection<Environment> list = new ArrayList<>();
+		/**
+		 * 将文件radwtmp中的数据进行读取
+		 * 将读取的数据按照 | 分割
+		 * 将分割号的数据填充到Environment对象存储到集合中并且返回
+		 */
+
+		
+		
+		try {
+			String file = "src/main/resources/radwtmp";
+			BufferedReader reader = new BufferedReader(
+					new InputStreamReader(
+							new FileInputStream(file)));
+			
+			while (true) {
+				String line = reader.readLine();
+				if (line == null) {
+					reader.close();
+					break;
+				}
+//				System.out.println(line);
+				String[] split = line.split("\\|");
+				Environment environment = new Environment();
+				environment.setSrcId(split[0]);
+				environment.setDevId(split[1]);
+				environment.setRegionId(Long.valueOf(split[2]));
+				environment.setCount(Long.valueOf(split[4]));
+				environment.setStates(Integer.parseInt(split[5]));
+				environment.setRewiceState(Integer.parseInt(split[7]));
+				environment.setGatheDate(new Date(Long.valueOf(split[8])));
+				if ("16".equals(split[3])) {
+					environment.setName("温/湿度");
+				}else if ("256".equals(split[3])) {
+					environment.setName("光照强度");
+				}else if ("1280".equals(split[3])) {
+					environment.setName("CO2");
+				}
+//				System.out.println(".");
+				if ("16".equals(split[3])) {
+					Integer value1 = Integer.parseInt(split[6].substring(0, 4), 16);
+					Integer value2 = Integer.parseInt(split[6].substring(4, 8), 16);
+					Double data = Double.valueOf(((float)value1*0.00268127)-46.85+((float)value2*0.00190735)-6);
+					environment.setData(data);
+				}
+				else {
+					float value = Float.valueOf(Integer.valueOf(split[6].substring(0, 4),16));
+					environment.setData(Double.valueOf(value));
+				}
+				list.add(environment);
+//				System.out.println(environment);
+			}
+		
+		
+		} catch (Exception e) {
+		}
+		return list;
+	}
+
+}

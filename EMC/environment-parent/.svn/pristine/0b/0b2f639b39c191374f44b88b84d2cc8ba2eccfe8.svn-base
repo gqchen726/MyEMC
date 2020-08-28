@@ -1,0 +1,14 @@
+package com.briup.send;
+
+import java.util.Collection;
+
+import com.briup.bean.Environment;
+
+/**
+ * 发送数据
+ * @author ghost
+ *
+ */
+public interface ISend {
+	void send(Collection<Environment> collection);
+}

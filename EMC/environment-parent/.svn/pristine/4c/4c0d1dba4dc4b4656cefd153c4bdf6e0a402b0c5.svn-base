@@ -1,0 +1,32 @@
+package com.briup;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+import com.briup.gather.GatherImpl;
+import com.briup.gather.IGather;
+import com.briup.send.ISend;
+import com.briup.send.SendImpl;
+
+/**
+ * 客户端主程序
+ * 
+ * @author ghost
+ *
+ */
+public class Application {
+	public static void main(String[] args) {
+		// 1.创建定时器线程池
+		ScheduledExecutorService threadPool = Executors.newScheduledThreadPool(5);
+		// 创建采集对象
+		IGather gather = new GatherImpl();
+		// 创建发送数据对象
+		ISend send = new SendImpl();
+		// 创建任务并执行
+		// 程序运行以后 推迟1秒执行任务 每隔600秒执行一次任务
+		threadPool.scheduleWithFixedDelay(() -> {
+			send.send(gather.gather());
+		}, 1, 600, TimeUnit.SECONDS);
+	}
+}

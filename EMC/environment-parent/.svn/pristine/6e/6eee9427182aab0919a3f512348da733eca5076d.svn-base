@@ -1,0 +1,144 @@
+package com.briup.gather;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import com.briup.bean.Environment;
+import com.briup.bean.FileNameEnums;
+import com.briup.util.FileBackupUtil;
+/**
+ * 采集数据
+ * 
+ * @author ghost
+ *
+ */
+public class GatherImpl implements IGather {
+
+	@SuppressWarnings({ "resource", "unchecked" })
+	@Override
+	public Collection<Environment> gather() {
+		/**
+		 * 将文件radwtmp中的数据进行读取 
+		 * 将读取的数据按照 | 分割 
+		 * 将分割号的数据填充到Environment对象存储到集合中并且返回 
+		 * 当第一次解析结束
+		 * 那么下一次解析就不要再去解析上一次解析过的数据
+		 */
+		// 1.存储解析好的对象
+		Collection<Environment> list = new ArrayList<>();
+		// 记录解析的进度字符数
+		long flag = 0;
+		try {
+			// 2.构建流
+			String file = "src/main/resources/radwtmp2";
+
+			FileReader fileReader = new FileReader(file);
+			BufferedReader reader = new BufferedReader(fileReader);
+			
+			//恢复解析进度
+			Object oldFlag = FileBackupUtil.recover(FileNameEnums.CLIENT_FLAG_PATH.getPath(), true);
+			// 如果进度不为空,则加载上一次解析的进度
+			if (oldFlag != null) {
+				flag += (Long) oldFlag;
+			}
+			// 跳过的解析进度
+			reader.skip(flag);
+			
+			// 恢复备份数据
+			Object oldData = FileBackupUtil.recover(FileNameEnums.CLIENT_DATA_PATH.getPath(), true);
+			// 如果备份数据不为空,则把备份数据加载进来
+			if (oldData != null) {
+				list.addAll((Collection<? extends Environment>) oldData);
+			}
+
+			String line = null;
+			while ((line = reader.readLine()) != null) {
+				String[] split = line.split("\\|");
+				// 数组判空
+				if (split == null || split.length <= 0) {
+					return null;
+				}
+				//换行符/n和回车符/r属于两个字符
+				flag += line.length() + 2;
+				// 设置温度数据
+				Environment environment = new Environment();
+				// 设置发送端ID
+				environment.setSrcId(split[0]);
+				// 设置树莓派ID
+				environment.setDevId(split[1]);
+				// 设置实验箱区域ID
+				environment.setRegionId(Long.valueOf(split[2]));
+				// 设置传感器的个数
+				environment.setCount(Long.valueOf(split[4]));
+				// 设置数据状态
+				environment.setStates(Integer.parseInt(split[5]));
+				// 设置数据接收状态
+				environment.setRewiceState(Integer.parseInt(split[7]));
+				// 设置采集数据时间
+				environment.setGatheDate(new Date(Long.valueOf(split[8])));
+				if ("16".equals(split[3])) {
+					// 设置数据名称
+					environment.setName("温度");
+					// 设置具体数据
+					Integer value = Integer.parseInt(split[6].substring(0, 4), 16);
+					Double data = Double.valueOf(((float) value * 0.00268127) - 46.85);
+					environment.setData(data);
+
+					list.add(environment);
+
+					// 设置湿度数据
+					environment = new Environment();
+					environment.setSrcId(split[0]);
+					environment.setDevId(split[1]);
+					environment.setRegionId(Long.valueOf(split[2]));
+					environment.setName("湿度");
+					environment.setCount(Long.valueOf(split[4]));
+					environment.setStates(Integer.parseInt(split[5]));
+					environment.setRewiceState(Integer.parseInt(split[7]));
+					environment.setGatheDate(new Date(Long.valueOf(split[8])));
+					value = Integer.parseInt(split[6].substring(4, 8), 16);
+					data = Double.valueOf(((float) value * 0.00268127) - 46.85);
+					environment.setData(data);
+
+					list.add(environment);
+
+				} else if ("256".equals(split[3])) {
+					environment.setName("光照强度");
+					double data = Integer.parseInt(split[6].substring(0, 4), 16);
+					environment.setData(data);
+
+					list.add(environment);
+				} else if ("1280".equals(split[3])) {
+					environment.setName("CO2");
+					double data = Integer.parseInt(split[6].substring(0, 4), 16);
+					environment.setData(data);
+
+					list.add(environment);
+				}
+			}
+			return list;
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			//如果数据的采集过程中发生异常,把已经解析过的数据备份,等下一次解析时把解析好的数据加载进来
+			try {
+				FileBackupUtil.store(FileNameEnums.CLIENT_DATA_PATH.getPath(), list);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+			return null;
+		} finally {
+			//始终记录解析的进度
+			try {
+				FileBackupUtil.store(FileNameEnums.CLIENT_FLAG_PATH.getPath(), flag);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,140 @@
+package com.briup.bean;
+
+import java.io.Serializable;
+import java.sql.Date;
+
+public class Environment implements Serializable {
+	private static final long serialVersionUID = 1L;
+	/**
+	 * 发送端的id
+	 */
+	private String srcId;
+	/**
+	 * 树莓派的id
+	 */
+	private String devId;
+	/**
+	 * 实验箱区域id
+	 */
+	private Long regionId;
+	/**
+	 * 数据名称
+	 */
+	private String name;
+	/**
+	 * 传感器的个数
+	 */
+	private Long count;
+	/**
+	 * 数据状态，3代表接收数据，6代表发送数据
+	 */
+	private Integer states;
+	/**
+	 * 具体数据
+	 */
+	private Double data;
+	/**
+	 * 数据接受状态，1代表成功
+	 */
+	private Integer rewiceState;
+	/**
+	 * 采集数据的时间
+	 */
+	private Date gatheDate;
+
+	public Environment() {
+	}
+
+	public Environment(String srcId, String devId, Long regionId, String name, Long count, Integer states, Double data,
+			Integer rewiceState, Date gatheDate) {
+		this.srcId = srcId;
+		this.devId = devId;
+		this.regionId = regionId;
+		this.name = name;
+		this.count = count;
+		this.states = states;
+		this.data = data;
+		this.rewiceState = rewiceState;
+		this.gatheDate = gatheDate;
+	}
+
+	public String getSrcId() {
+		return srcId;
+	}
+
+	public void setSrcId(String srcId) {
+		this.srcId = srcId;
+	}
+
+	public String getDevId() {
+		return devId;
+	}
+
+	public void setDevId(String devId) {
+		this.devId = devId;
+	}
+
+	public Long getRegionId() {
+		return regionId;
+	}
+
+	public void setRegionId(Long regionId) {
+		this.regionId = regionId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Long getCount() {
+		return count;
+	}
+
+	public void setCount(Long count) {
+		this.count = count;
+	}
+
+	public Integer getStates() {
+		return states;
+	}
+
+	public void setStates(Integer states) {
+		this.states = states;
+	}
+
+	public Double getData() {
+		return data;
+	}
+
+	public void setData(Double data) {
+		this.data = data;
+	}
+
+	public Integer getRewiceState() {
+		return rewiceState;
+	}
+
+	public void setRewiceState(Integer rewiceState) {
+		this.rewiceState = rewiceState;
+	}
+
+	public Date getGatheDate() {
+		return gatheDate;
+	}
+
+	public void setGatheDate(Date gatheDate) {
+		this.gatheDate = gatheDate;
+	}
+
+	@Override
+	public String toString() {
+		return "Environment [srcId=" + srcId + ", devId=" + devId + ", regionId=" + regionId + ", name=" + name
+				+ ", count=" + count + ", states=" + states + ", data=" + data + ", rewiceState=" + rewiceState
+				+ ", gatheDate=" + gatheDate + "]";
+	}
+
+}

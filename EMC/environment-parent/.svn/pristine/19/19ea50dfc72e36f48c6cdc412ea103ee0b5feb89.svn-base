@@ -1,0 +1,666 @@
+2020-05-28 11:59:36 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 11:59:36 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 11:59:49 [ main:12466] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 11:59:49 [ main:12468] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 11:59:49 [ main:12469] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 11:59:49 [ main:12469] -[ INFO] 等待新的客户端连接
+2020-05-28 11:59:49 [ Thread-0:12471] -[ INFO] 开始入库
+2020-05-28 11:59:50 [ Thread-0:13998] -[ INFO] 入库成功
+2020-05-28 12:01:46 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:01:46 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 12:01:53 [ main:6750] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:01:53 [ main:6754] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:01:53 [ main:6755] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:01:53 [ main:6755] -[ INFO] 等待新的客户端连接
+2020-05-28 12:01:53 [ Thread-0:6758] -[ INFO] 开始入库
+2020-05-28 12:01:54 [ Thread-0:8325] -[ INFO] 建表 Environment_?1成功
+2020-05-28 12:01:54 [ Thread-0:8326] -[ INFO] 入库成功
+2020-05-28 12:04:25 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:04:25 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 12:04:31 [ main:6187] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:04:31 [ main:6188] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:04:31 [ main:6189] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:04:31 [ main:6189] -[ INFO] 等待新的客户端连接
+2020-05-28 12:04:31 [ Thread-0:6193] -[ INFO] 开始入库
+2020-05-28 12:04:33 [ Thread-0:7751] -[ INFO] 入库成功
+2020-05-28 12:05:06 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:05:06 [ main:14] -[ INFO] 等待新的客户端连接
+2020-05-28 12:05:11 [ main:5529] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:05:11 [ main:5530] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:05:11 [ main:5531] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:05:11 [ main:5531] -[ INFO] 等待新的客户端连接
+2020-05-28 12:05:11 [ Thread-0:5535] -[ INFO] 开始入库
+2020-05-28 12:05:13 [ Thread-0:7164] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:05:13 [ Thread-0:7166] -[ INFO] 入库成功
+2020-05-28 12:12:16 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:12:16 [ main:4] -[ INFO] 等待新的客户端连接
+2020-05-28 12:12:22 [ main:5892] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:12:22 [ main:5894] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:12:22 [ main:5894] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:12:22 [ main:5894] -[ INFO] 等待新的客户端连接
+2020-05-28 12:12:22 [ Thread-0:5899] -[ INFO] 开始入库
+2020-05-28 12:12:23 [ Thread-0:7339] -[ INFO] 入库成功
+2020-05-28 12:13:33 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:13:33 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 12:13:38 [ main:5034] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:13:38 [ main:5036] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:13:38 [ main:5036] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:13:38 [ main:5036] -[ INFO] 等待新的客户端连接
+2020-05-28 12:13:38 [ Thread-0:5039] -[ INFO] 开始入库
+2020-05-28 12:13:39 [ Thread-0:6576] -[ INFO] 入库成功
+2020-05-28 12:14:37 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:14:37 [ main:6] -[ INFO] 等待新的客户端连接
+2020-05-28 12:14:44 [ main:7354] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:14:44 [ main:7355] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:14:44 [ main:7355] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:14:44 [ main:7356] -[ INFO] 等待新的客户端连接
+2020-05-28 12:14:44 [ Thread-0:7361] -[ INFO] 开始入库
+2020-05-28 12:14:46 [ Thread-0:9016] -[ INFO] 入库成功
+2020-05-28 12:16:53 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:16:53 [ main:6] -[ INFO] 等待新的客户端连接
+2020-05-28 12:16:57 [ main:4749] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:16:57 [ main:4751] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:16:57 [ main:4751] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:16:57 [ main:4751] -[ INFO] 等待新的客户端连接
+2020-05-28 12:16:57 [ Thread-0:4760] -[ INFO] 开始入库
+2020-05-28 12:16:59 [ Thread-0:6272] -[ INFO] 入库成功
+2020-05-28 12:18:33 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:18:33 [ main:6] -[ INFO] 等待新的客户端连接
+2020-05-28 12:18:37 [ main:4807] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:18:37 [ main:4808] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:18:37 [ main:4809] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:18:37 [ main:4809] -[ INFO] 等待新的客户端连接
+2020-05-28 12:18:37 [ Thread-0:4812] -[ INFO] 开始入库
+2020-05-28 12:18:39 [ Thread-0:6283] -[ INFO] java.sql.SQLSyntaxErrorException: ORA-02289: 序列不存在
+
+2020-05-28 12:18:39 [ Thread-0:6286] -[ INFO] 入库成功
+2020-05-28 12:20:41 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:20:41 [ main:7] -[ INFO] 等待新的客户端连接
+2020-05-28 12:20:46 [ main:4788] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:20:46 [ main:4790] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:20:46 [ main:4790] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:20:46 [ main:4790] -[ INFO] 等待新的客户端连接
+2020-05-28 12:20:46 [ Thread-0:4793] -[ INFO] 开始入库
+2020-05-28 12:20:47 [ Thread-0:6258] -[ INFO] 入库成功
+2020-05-28 12:22:05 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:22:05 [ main:4] -[ INFO] 等待新的客户端连接
+2020-05-28 12:22:10 [ main:5133] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:22:10 [ main:5134] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:22:10 [ main:5134] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:22:10 [ main:5134] -[ INFO] 等待新的客户端连接
+2020-05-28 12:22:10 [ Thread-0:5137] -[ INFO] 开始入库
+2020-05-28 12:22:11 [ Thread-0:6630] -[ INFO] 入库成功
+2020-05-28 12:22:46 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:22:46 [ main:11] -[ INFO] 等待新的客户端连接
+2020-05-28 12:22:50 [ main:4265] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:22:50 [ main:4267] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:22:50 [ main:4268] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:22:50 [ main:4268] -[ INFO] 等待新的客户端连接
+2020-05-28 12:22:50 [ Thread-0:4275] -[ INFO] 开始入库
+2020-05-28 12:22:52 [ Thread-0:5865] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:22:52 [ Thread-0:5867] -[ INFO] 入库成功
+2020-05-28 12:23:51 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:23:51 [ main:6] -[ INFO] 等待新的客户端连接
+2020-05-28 12:24:00 [ main:9655] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:24:00 [ main:9657] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:24:00 [ main:9657] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:24:00 [ main:9657] -[ INFO] 等待新的客户端连接
+2020-05-28 12:24:00 [ Thread-0:9684] -[ INFO] 开始入库
+2020-05-28 12:24:02 [ Thread-0:11257] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:24:02 [ Thread-0:11295] -[ INFO] 插入数据成功
+2020-05-28 12:24:02 [ Thread-0:11297] -[ INFO] 入库成功
+2020-05-28 12:25:35 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:25:35 [ main:6] -[ INFO] 等待新的客户端连接
+2020-05-28 12:25:39 [ main:3910] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:25:39 [ main:3912] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:25:39 [ main:3912] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:25:39 [ main:3912] -[ INFO] 等待新的客户端连接
+2020-05-28 12:25:39 [ Thread-0:3916] -[ INFO] 开始入库
+2020-05-28 12:25:41 [ Thread-0:5457] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:25:41 [ Thread-0:5489] -[ INFO] 插入数据成功
+2020-05-28 12:25:41 [ Thread-0:5490] -[ INFO] 入库成功
+2020-05-28 12:26:01 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:26:01 [ main:7] -[ INFO] 等待新的客户端连接
+2020-05-28 12:26:07 [ main:5671] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:26:07 [ main:5673] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:26:07 [ main:5673] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:26:07 [ main:5673] -[ INFO] 等待新的客户端连接
+2020-05-28 12:26:07 [ Thread-0:5705] -[ INFO] 开始入库
+2020-05-28 12:26:09 [ Thread-0:7206] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:26:09 [ Thread-0:7244] -[ INFO] 插入数据成功
+2020-05-28 12:26:09 [ Thread-0:7245] -[ INFO] 入库成功
+2020-05-28 12:28:03 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:28:03 [ main:5] -[ INFO] 等待新的客户端连接
+2020-05-28 12:28:09 [ main:6187] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:28:09 [ main:6188] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:28:09 [ main:6188] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:28:09 [ main:6189] -[ INFO] 等待新的客户端连接
+2020-05-28 12:28:09 [ Thread-0:6194] -[ INFO] 开始入库
+2020-05-28 12:28:10 [ Thread-0:7786] -[ INFO] 建表 Environment_2成功
+2020-05-28 12:28:10 [ Thread-0:7817] -[ INFO] 插入数据成功
+2020-05-28 12:28:10 [ Thread-0:7818] -[ INFO] 入库成功
+2020-05-28 12:28:47 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:28:47 [ main:7] -[ INFO] 等待新的客户端连接
+2020-05-28 12:28:52 [ main:5294] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 12:28:52 [ main:5295] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 12:28:52 [ main:5296] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 12:28:52 [ main:5296] -[ INFO] 等待新的客户端连接
+2020-05-28 12:28:52 [ Thread-0:5328] -[ INFO] 开始入库
+2020-05-28 12:28:54 [ Thread-0:6879] -[ INFO] 建表 Environment_1成功
+2020-05-28 12:28:54 [ Thread-0:6921] -[ INFO] 插入数据成功
+2020-05-28 12:28:54 [ Thread-0:6922] -[ INFO] 入库成功
+2020-05-28 13:24:09 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 13:24:09 [ main:7] -[ INFO] 等待新的客户端连接
+2020-05-28 13:24:17 [ main:7913] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 13:24:17 [ main:7915] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 13:24:17 [ main:7915] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 13:24:17 [ main:7915] -[ INFO] 等待新的客户端连接
+2020-05-28 13:24:17 [ Thread-0:7945] -[ INFO] 开始入库
+2020-05-28 13:24:18 [ Thread-0:9539] -[ INFO] 建表 Environment_1成功
+2020-05-28 13:24:18 [ Thread-0:9582] -[ INFO] 入库成功
+2020-05-28 14:05:35 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 14:05:35 [ main:24] -[ INFO] 等待新的客户端连接
+2020-05-28 14:05:45 [ main:10232] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 14:05:45 [ main:10248] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 14:05:45 [ main:10248] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 14:05:45 [ main:10249] -[ INFO] 等待新的客户端连接
+2020-05-28 14:05:45 [ Thread-0:10295] -[ INFO] 开始入库
+2020-05-28 14:05:47 [ Thread-0:12355] -[ INFO] 建表 Environment_1成功
+2020-05-28 14:05:47 [ Thread-0:12403] -[ INFO] 入库成功
+2020-05-28 17:25:44 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:25:44 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:25:48 [ main:4385] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:25:48 [ main:4386] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:25:48 [ main:4387] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:25:48 [ main:4387] -[ INFO] 等待新的客户端连接
+2020-05-28 17:25:48 [ Thread-0:4414] -[ INFO] 开始入库
+2020-05-28 17:25:53 [ main:9361] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:25:53 [ main:9362] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:25:53 [ main:9362] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:25:53 [ main:9362] -[ INFO] 等待新的客户端连接
+2020-05-28 17:25:53 [ Thread-1:9363] -[ INFO] 开始入库
+2020-05-28 17:25:58 [ main:14366] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:25:58 [ main:14366] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:25:58 [ main:14367] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:25:58 [ main:14367] -[ INFO] 等待新的客户端连接
+2020-05-28 17:25:58 [ Thread-2:14367] -[ INFO] 开始入库
+2020-05-28 17:34:05 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:34:05 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:34:10 [ main:4386] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:34:10 [ main:4388] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:34:10 [ main:4388] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:34:10 [ main:4388] -[ INFO] 等待新的客户端连接
+2020-05-28 17:34:10 [ Thread-0:4394] -[ INFO] 开始入库
+2020-05-28 17:34:10 [ Thread-0:4647] -[ ERROR] {dataSource-1} init error
+java.sql.SQLException: "oracle.jdbc.OracleDrover"
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:625)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:897)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372)
+	at com.beiup.store.ConnectionUtil.getConnections(ConnectionUtil.java:50)
+	at com.beiup.store.DataStorageImpl.dataStorage(DataStorageImpl.java:33)
+	at com.beiup.accept.MyThread.run(MyThread.java:54)
+Caused by: java.lang.ClassNotFoundException: "oracle.jdbc.OracleDrover"
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:623)
+	... 6 more
+2020-05-28 17:35:07 [ main:1] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:35:07 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:35:10 [ main:3852] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:35:10 [ main:3853] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:35:10 [ main:3854] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:35:10 [ main:3854] -[ INFO] 等待新的客户端连接
+2020-05-28 17:35:10 [ Thread-0:3859] -[ INFO] 开始入库
+2020-05-28 17:35:11 [ Thread-0:4089] -[ ERROR] {dataSource-1} init error
+java.sql.SQLException: "oracle.jdbc.OracleDriver"
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:625)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:897)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372)
+	at com.beiup.store.ConnectionUtil.getConnections(ConnectionUtil.java:50)
+	at com.beiup.store.DataStorageImpl.dataStorage(DataStorageImpl.java:33)
+	at com.beiup.accept.MyThread.run(MyThread.java:54)
+Caused by: java.lang.ClassNotFoundException: "oracle.jdbc.OracleDriver"
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:623)
+	... 6 more
+2020-05-28 17:35:53 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:35:53 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:35:57 [ main:3644] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:35:57 [ main:3645] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:35:57 [ main:3645] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:35:57 [ main:3646] -[ INFO] 等待新的客户端连接
+2020-05-28 17:35:57 [ Thread-0:3651] -[ INFO] 开始入库
+2020-05-28 17:35:57 [ Thread-0:3847] -[ ERROR] {dataSource-1} init error
+java.sql.SQLException: "oracle.ojdbc.OracleDriver"
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:625)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:897)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1376)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1372)
+	at com.beiup.store.ConnectionUtil.getConnections(ConnectionUtil.java:50)
+	at com.beiup.store.DataStorageImpl.dataStorage(DataStorageImpl.java:33)
+	at com.beiup.accept.MyThread.run(MyThread.java:54)
+Caused by: java.lang.ClassNotFoundException: "oracle.ojdbc.OracleDriver"
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:623)
+	... 6 more
+2020-05-28 17:37:40 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:37:40 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 17:37:44 [ main:3782] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:37:44 [ main:3783] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:37:44 [ main:3784] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:37:44 [ main:3784] -[ INFO] 等待新的客户端连接
+2020-05-28 17:37:44 [ Thread-0:3789] -[ INFO] 开始入库
+2020-05-28 17:37:44 [ Thread-0:4047] -[ INFO] {dataSource-1} inited
+2020-05-28 17:37:45 [ Druid-ConnectionPool-Create-723322565:4467] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:45 [ Druid-ConnectionPool-Create-723322565:4487] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:45 [ Druid-ConnectionPool-Create-723322565:4488] -[ INFO] {dataSource-1} failContinuous is true
+2020-05-28 17:37:45 [ Druid-ConnectionPool-Create-723322565:5003] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:46 [ Druid-ConnectionPool-Create-723322565:5520] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:46 [ Druid-ConnectionPool-Create-723322565:6049] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:47 [ Druid-ConnectionPool-Create-723322565:6565] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:47 [ Druid-ConnectionPool-Create-723322565:7092] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:48 [ Druid-ConnectionPool-Create-723322565:7619] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:48 [ Druid-ConnectionPool-Create-723322565:8148] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:37:49 [ Druid-ConnectionPool-Create-723322565:8673] -[ ERROR] create connection SQLException, url: jdbc:oracle:thin:@127.0.0.1:1521:xe, errorCode 1017, state 72000
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:743)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2753)
+2020-05-28 17:39:14 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:39:14 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:39:19 [ main:4495] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:39:19 [ main:4496] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:39:19 [ main:4496] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:39:19 [ main:4496] -[ INFO] 等待新的客户端连接
+2020-05-28 17:39:19 [ Thread-0:4503] -[ INFO] 开始入库
+2020-05-28 17:39:20 [ Thread-0:6103] -[ INFO] {dataSource-1} inited
+2020-05-28 17:39:20 [ Thread-0:6212] -[ INFO] 数据入库成功
+2020-05-28 17:39:20 [ Thread-0:6216] -[ INFO] 入库成功
+2020-05-28 17:41:03 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:41:03 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:41:50 [ main:47482] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:41:50 [ main:47483] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:41:50 [ main:47484] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:41:50 [ main:47484] -[ INFO] 等待新的客户端连接
+2020-05-28 17:41:53 [ Thread-0:50296] -[ INFO] 开始入库
+2020-05-28 17:41:54 [ Thread-0:51824] -[ INFO] {dataSource-1} inited
+2020-05-28 17:41:57 [ Thread-0:54165] -[ INFO] 入库成功
+2020-05-28 17:43:39 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:43:39 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:43:43 [ main:4443] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:43:43 [ main:4445] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:43:43 [ main:4445] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:43:43 [ main:4445] -[ INFO] 等待新的客户端连接
+2020-05-28 17:43:43 [ Thread-0:4470] -[ INFO] 开始入库
+2020-05-28 17:43:45 [ Thread-0:6062] -[ INFO] {dataSource-1} inited
+2020-05-28 17:43:53 [ Thread-0:14694] -[ INFO] 入库成功
+2020-05-28 17:49:48 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:49:48 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 17:49:52 [ main:3958] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:49:52 [ main:3959] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:49:52 [ main:3959] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:49:52 [ main:3960] -[ INFO] 等待新的客户端连接
+2020-05-28 17:49:52 [ Thread-0:3965] -[ INFO] 开始入库
+2020-05-28 17:49:59 [ Thread-0:11703] -[ INFO] {dataSource-1} inited
+2020-05-28 17:50:02 [ Thread-0:14366] -[ INFO] 入库成功
+2020-05-28 17:53:47 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:53:47 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 17:53:51 [ main:4094] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:53:51 [ main:4096] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:53:51 [ main:4096] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:53:51 [ main:4096] -[ INFO] 等待新的客户端连接
+2020-05-28 17:53:51 [ Thread-0:4102] -[ INFO] 开始入库
+2020-05-28 17:53:58 [ Thread-0:11586] -[ INFO] {dataSource-1} inited
+2020-05-28 17:54:01 [ Thread-0:13867] -[ INFO] 入库成功
+2020-05-28 17:54:32 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:54:32 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 17:54:36 [ main:3330] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 17:54:36 [ main:3332] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 17:54:36 [ main:3332] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:54:36 [ main:3332] -[ INFO] 等待新的客户端连接
+2020-05-28 17:54:36 [ Thread-0:3337] -[ INFO] 开始入库
+2020-05-28 17:54:43 [ Thread-0:10734] -[ INFO] {dataSource-1} inited
+2020-05-28 17:54:45 [ Thread-0:12973] -[ INFO] 入库成功
+2020-05-28 17:59:36 [ main:1] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 17:59:36 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 18:00:06 [ main:30197] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 18:00:06 [ main:30198] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 18:00:06 [ main:30198] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 18:00:06 [ main:30198] -[ INFO] 等待新的客户端连接
+2020-05-28 18:00:06 [ Thread-0:30205] -[ INFO] 开始入库
+2020-05-28 18:00:13 [ Thread-0:37838] -[ INFO] {dataSource-1} inited
+2020-05-28 18:00:16 [ Thread-0:40205] -[ INFO] 入库成功
+2020-05-28 18:03:03 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 18:03:03 [ main:4] -[ INFO] 等待新的客户端连接
+2020-05-28 18:03:11 [ main:8349] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 18:03:11 [ main:8351] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 18:03:11 [ main:8351] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 18:03:11 [ main:8351] -[ INFO] 等待新的客户端连接
+2020-05-28 18:03:11 [ Thread-0:8357] -[ INFO] 开始入库
+2020-05-28 18:03:19 [ Thread-0:15745] -[ INFO] {dataSource-1} inited
+2020-05-28 18:03:22 [ Thread-0:18619] -[ INFO] 数据存储成功
+2020-05-28 18:03:22 [ Thread-0:18620] -[ INFO] 入库成功
+2020-05-28 19:37:48 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 19:37:48 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 19:37:53 [ main:5408] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 19:37:53 [ main:5409] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 19:37:53 [ main:5409] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 19:37:53 [ main:5409] -[ INFO] 等待新的客户端连接
+2020-05-28 19:37:53 [ Thread-0:5435] -[ INFO] 开始入库
+2020-05-28 19:37:55 [ Thread-0:7199] -[ INFO] {dataSource-1} inited
+2020-05-28 19:37:55 [ Thread-0:7257] -[ INFO] 数据存储成功
+2020-05-28 19:37:55 [ Thread-0:7257] -[ INFO] 入库成功
+2020-05-28 21:35:30 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 21:35:30 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 21:35:43 [ main:12738] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 21:35:43 [ main:12740] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 21:35:43 [ main:12740] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 21:35:43 [ main:12740] -[ INFO] 等待新的客户端连接
+2020-05-28 21:35:45 [ Thread-0:15034] -[ INFO] 开始入库
+2020-05-28 21:35:47 [ Thread-0:16583] -[ INFO] {dataSource-1} inited
+2020-05-28 21:35:49 [ Thread-0:19086] -[ INFO] 数据存储成功
+2020-05-28 21:35:49 [ Thread-0:19086] -[ INFO] 入库成功
+2020-05-28 22:26:06 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:26:06 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 22:26:12 [ main:6470] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:26:12 [ main:6471] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:26:12 [ main:6472] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:26:12 [ main:6472] -[ INFO] 等待新的客户端连接
+2020-05-28 22:26:13 [ Thread-0:6527] -[ INFO] 开始入库
+2020-05-28 22:26:14 [ Thread-0:8161] -[ INFO] {dataSource-1} inited
+2020-05-28 22:26:14 [ Thread-0:8166] -[ INFO] 数据存储成功
+2020-05-28 22:26:14 [ Thread-0:8166] -[ INFO] 入库成功
+2020-05-28 22:27:47 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:27:47 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 22:27:52 [ main:5307] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:27:52 [ main:5309] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:27:52 [ main:5309] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:27:52 [ main:5309] -[ INFO] 等待新的客户端连接
+2020-05-28 22:27:57 [ Thread-0:10607] -[ INFO] 开始入库
+2020-05-28 22:27:59 [ Thread-0:12081] -[ INFO] {dataSource-1} inited
+2020-05-28 22:28:01 [ Thread-0:14213] -[ INFO] 数据存储成功
+2020-05-28 22:28:01 [ Thread-0:14213] -[ INFO] 入库成功
+2020-05-28 22:29:09 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:29:09 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 22:29:14 [ main:4327] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:29:14 [ main:4330] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:29:14 [ main:4330] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:29:14 [ main:4330] -[ INFO] 等待新的客户端连接
+2020-05-28 22:29:19 [ Thread-0:9428] -[ INFO] 开始入库
+2020-05-28 22:29:20 [ Thread-0:10875] -[ INFO] {dataSource-1} inited
+2020-05-28 22:29:22 [ Thread-0:12771] -[ INFO] 数据存储成功
+2020-05-28 22:29:22 [ Thread-0:12771] -[ INFO] 入库成功
+2020-05-28 22:29:43 [ main:34132] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:29:43 [ main:34132] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:29:43 [ main:34132] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:29:43 [ main:34132] -[ INFO] 等待新的客户端连接
+2020-05-28 22:29:43 [ Thread-4:34133] -[ INFO] 开始入库
+2020-05-28 22:29:43 [ Thread-4:34136] -[ INFO] 数据存储成功
+2020-05-28 22:29:43 [ Thread-4:34137] -[ INFO] 入库成功
+2020-05-28 22:31:06 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:31:06 [ main:3] -[ INFO] 等待新的客户端连接
+2020-05-28 22:31:10 [ main:4778] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:31:10 [ main:4779] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:31:10 [ main:4780] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:31:10 [ main:4780] -[ INFO] 等待新的客户端连接
+2020-05-28 22:31:11 [ Thread-0:4827] -[ INFO] 开始入库
+2020-05-28 22:31:12 [ Thread-0:6635] -[ INFO] {dataSource-1} inited
+2020-05-28 22:31:12 [ Thread-0:6641] -[ INFO] 数据存储成功
+2020-05-28 22:31:12 [ Thread-0:6641] -[ INFO] 入库成功
+2020-05-28 22:31:40 [ main:34759] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:31:40 [ main:34759] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:31:40 [ main:34759] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:31:40 [ main:34759] -[ INFO] 等待新的客户端连接
+2020-05-28 22:31:40 [ Thread-4:34760] -[ INFO] 开始入库
+2020-05-28 22:31:40 [ Thread-4:34760] -[ INFO] 数据存储成功
+2020-05-28 22:31:40 [ Thread-4:34761] -[ INFO] 入库成功
+2020-05-28 22:32:07 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:32:07 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 22:32:11 [ main:4089] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:32:11 [ main:4090] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:32:11 [ main:4091] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:32:11 [ main:4091] -[ INFO] 等待新的客户端连接
+2020-05-28 22:32:11 [ Thread-0:4170] -[ INFO] 开始入库
+2020-05-28 22:32:13 [ Thread-0:5745] -[ INFO] {dataSource-1} inited
+2020-05-28 22:32:13 [ Thread-0:5794] -[ INFO] 数据存储成功
+2020-05-28 22:32:13 [ Thread-0:5794] -[ INFO] 入库成功
+2020-05-28 22:32:41 [ main:34075] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:32:41 [ main:34075] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:32:41 [ main:34075] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:32:41 [ main:34075] -[ INFO] 等待新的客户端连接
+2020-05-28 22:32:41 [ Thread-4:34078] -[ INFO] 开始入库
+2020-05-28 22:32:41 [ Thread-4:34080] -[ INFO] 数据存储成功
+2020-05-28 22:32:41 [ Thread-4:34081] -[ INFO] 入库成功
+2020-05-28 22:33:11 [ main:64066] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:33:11 [ main:64066] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:33:11 [ main:64066] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:33:11 [ main:64066] -[ INFO] 等待新的客户端连接
+2020-05-28 22:33:41 [ main:94070] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 22:33:41 [ main:94070] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 22:33:41 [ main:94070] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 22:33:41 [ main:94070] -[ INFO] 等待新的客户端连接
+2020-05-28 22:33:41 [ Thread-6:94075] -[ INFO] 开始入库
+2020-05-28 22:33:41 [ Thread-6:94078] -[ INFO] 数据存储成功
+2020-05-28 22:33:41 [ Thread-6:94078] -[ INFO] 入库成功
+2020-05-28 23:01:07 [ main:0] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 23:01:07 [ main:2] -[ INFO] 等待新的客户端连接
+2020-05-28 23:01:13 [ main:5890] -[ INFO] 客户端/127.0.0.1连接到服务器
+2020-05-28 23:01:13 [ main:5891] -[ INFO] 当前任务已交予子线程处理
+2020-05-28 23:01:13 [ main:5891] -[ INFO] 服务器已启动,正在监听8666端口号
+2020-05-28 23:01:13 [ main:5891] -[ INFO] 等待新的客户端连接
+2020-05-28 23:01:13 [ Thread-0:5898] -[ INFO] 开始入库
+2020-05-28 23:01:15 [ Thread-0:7540] -[ INFO] {dataSource-1} inited
+2020-05-28 23:01:15 [ Thread-0:7544] -[ INFO] 数据存储成功
+2020-05-28 23:01:15 [ Thread-0:7545] -[ INFO] 入库成功

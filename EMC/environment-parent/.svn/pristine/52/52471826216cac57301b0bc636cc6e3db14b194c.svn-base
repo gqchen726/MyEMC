@@ -1,0 +1,36 @@
+package com.beiup.accept;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import com.beiup.thread.MyThread;
+/**
+ * 接收从客户端发送过来的数据
+ * 	有可能第一次发送过来的数据还没有接收完成，第二次就又发送过来数据（多线程）
+ * @author ghost
+ *
+ */
+public class AcceptImpl implements IAccept{
+	@Override
+	public void accept(){
+		Socket socket = null;
+		ServerSocket serverSocket = null;
+		try {
+			int port = 8666;
+			serverSocket = new ServerSocket(port);
+			while (true) {
+				System.out.println("服务器已启动监听8666端口号");
+				System.out.println("等待新的客户端连接");
+				socket = serverSocket.accept();
+				System.out.println("客户端连接成功");
+				//创建一个线程交给线程去处理
+				(new MyThread(socket)).start();
+				System.out.println("当前任务已交予子线程处理");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+}
